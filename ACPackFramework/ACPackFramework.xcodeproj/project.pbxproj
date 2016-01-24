@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		463EC2F91C54D9E3004EF743 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463EC2F81C54D9E3004EF743 /* AppKit.framework */; };
+		463EC2FB1C54D9E3004EF743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 463EC2FA1C54D9E3004EF743 /* Foundation.framework */; };
+		463EC2FF1C54D9E3004EF743 /* ACPackFramework.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 463EC2FE1C54D9E3004EF743 /* ACPackFramework.xcscheme */; };
+		463EC3021C54D9E3004EF743 /* ACPackFramework.m in Sources */ = {isa = PBXBuildFile; fileRef = 463EC3011C54D9E3004EF743 /* ACPackFramework.m */; };
+		463EC3051C54D9E3004EF743 /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 463EC3041C54D9E3004EF743 /* NSObject_Extension.m */; };
+		463EC30F1C54DA77004EF743 /* NSTask+Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 463EC30E1C54DA77004EF743 /* NSTask+Extras.m */; };
+		463EC3121C54DAD4004EF743 /* ACPackDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 463EC3111C54DAD4004EF743 /* ACPackDataSource.m */; };
+		463EC3161C54DB22004EF743 /* ACPackConfigController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463EC3141C54DB22004EF743 /* ACPackConfigController.m */; };
+		463EC3171C54DB22004EF743 /* ACPackConfigController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463EC3151C54DB22004EF743 /* ACPackConfigController.xib */; };
+		463EC31B1C54DB42004EF743 /* ACPackLoadingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 463EC3191C54DB42004EF743 /* ACPackLoadingController.m */; };
+		463EC31C1C54DB42004EF743 /* ACPackLoadingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463EC31A1C54DB42004EF743 /* ACPackLoadingController.xib */; };
+		463EC31E1C54DB91004EF743 /* buid_framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 463EC31D1C54DB91004EF743 /* buid_framework.sh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		463EC2F51C54D9E3004EF743 /* ACPackFramework.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACPackFramework.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		463EC2F81C54D9E3004EF743 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		463EC2FA1C54D9E3004EF743 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		463EC2FE1C54D9E3004EF743 /* ACPackFramework.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = ACPackFramework.xcscheme; path = ACPackFramework.xcodeproj/xcshareddata/xcschemes/ACPackFramework.xcscheme; sourceTree = SOURCE_ROOT; };
+		463EC3001C54D9E3004EF743 /* ACPackFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACPackFramework.h; sourceTree = "<group>"; };
+		463EC3011C54D9E3004EF743 /* ACPackFramework.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACPackFramework.m; sourceTree = "<group>"; };
+		463EC3031C54D9E3004EF743 /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		463EC3041C54D9E3004EF743 /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
+		463EC3061C54D9E3004EF743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		463EC30D1C54DA77004EF743 /* NSTask+Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTask+Extras.h"; sourceTree = "<group>"; };
+		463EC30E1C54DA77004EF743 /* NSTask+Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTask+Extras.m"; sourceTree = "<group>"; };
+		463EC3101C54DAD4004EF743 /* ACPackDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPackDataSource.h; sourceTree = "<group>"; };
+		463EC3111C54DAD4004EF743 /* ACPackDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPackDataSource.m; sourceTree = "<group>"; };
+		463EC3131C54DB22004EF743 /* ACPackConfigController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPackConfigController.h; sourceTree = "<group>"; };
+		463EC3141C54DB22004EF743 /* ACPackConfigController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPackConfigController.m; sourceTree = "<group>"; };
+		463EC3151C54DB22004EF743 /* ACPackConfigController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACPackConfigController.xib; sourceTree = "<group>"; };
+		463EC3181C54DB42004EF743 /* ACPackLoadingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACPackLoadingController.h; sourceTree = "<group>"; };
+		463EC3191C54DB42004EF743 /* ACPackLoadingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACPackLoadingController.m; sourceTree = "<group>"; };
+		463EC31A1C54DB42004EF743 /* ACPackLoadingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACPackLoadingController.xib; sourceTree = "<group>"; };
+		463EC31D1C54DB91004EF743 /* buid_framework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buid_framework.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		463EC2F31C54D9E3004EF743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463EC2F91C54D9E3004EF743 /* AppKit.framework in Frameworks */,
+				463EC2FB1C54D9E3004EF743 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		463EC2EC1C54D9E3004EF743 = {
+			isa = PBXGroup;
+			children = (
+				463EC2FC1C54D9E3004EF743 /* ACPackFramework */,
+				463EC2F71C54D9E3004EF743 /* Frameworks */,
+				463EC2F61C54D9E3004EF743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		463EC2F61C54D9E3004EF743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				463EC2F51C54D9E3004EF743 /* ACPackFramework.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		463EC2F71C54D9E3004EF743 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				463EC2F81C54D9E3004EF743 /* AppKit.framework */,
+				463EC2FA1C54D9E3004EF743 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		463EC2FC1C54D9E3004EF743 /* ACPackFramework */ = {
+			isa = PBXGroup;
+			children = (
+				463EC30C1C54DA77004EF743 /* Categories */,
+				463EC3001C54D9E3004EF743 /* ACPackFramework.h */,
+				463EC3011C54D9E3004EF743 /* ACPackFramework.m */,
+				463EC3101C54DAD4004EF743 /* ACPackDataSource.h */,
+				463EC3111C54DAD4004EF743 /* ACPackDataSource.m */,
+				463EC3131C54DB22004EF743 /* ACPackConfigController.h */,
+				463EC3141C54DB22004EF743 /* ACPackConfigController.m */,
+				463EC3151C54DB22004EF743 /* ACPackConfigController.xib */,
+				463EC31A1C54DB42004EF743 /* ACPackLoadingController.xib */,
+				463EC3181C54DB42004EF743 /* ACPackLoadingController.h */,
+				463EC3191C54DB42004EF743 /* ACPackLoadingController.m */,
+				463EC3031C54D9E3004EF743 /* NSObject_Extension.h */,
+				463EC3041C54D9E3004EF743 /* NSObject_Extension.m */,
+				463EC3061C54D9E3004EF743 /* Info.plist */,
+				463EC2FD1C54D9E3004EF743 /* Supporting Files */,
+			);
+			path = ACPackFramework;
+			sourceTree = "<group>";
+		};
+		463EC2FD1C54D9E3004EF743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				463EC31D1C54DB91004EF743 /* buid_framework.sh */,
+				463EC2FE1C54D9E3004EF743 /* ACPackFramework.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		463EC30C1C54DA77004EF743 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				463EC30D1C54DA77004EF743 /* NSTask+Extras.h */,
+				463EC30E1C54DA77004EF743 /* NSTask+Extras.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		463EC2F41C54D9E3004EF743 /* ACPackFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 463EC3091C54D9E3004EF743 /* Build configuration list for PBXNativeTarget "ACPackFramework" */;
+			buildPhases = (
+				463EC2F11C54D9E3004EF743 /* Sources */,
+				463EC2F21C54D9E3004EF743 /* Resources */,
+				463EC2F31C54D9E3004EF743 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ACPackFramework;
+			productName = ACPackFramework;
+			productReference = 463EC2F51C54D9E3004EF743 /* ACPackFramework.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		463EC2ED1C54D9E3004EF743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = acorld;
+				TargetAttributes = {
+					463EC2F41C54D9E3004EF743 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 463EC2F01C54D9E3004EF743 /* Build configuration list for PBXProject "ACPackFramework" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 463EC2EC1C54D9E3004EF743;
+			productRefGroup = 463EC2F61C54D9E3004EF743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				463EC2F41C54D9E3004EF743 /* ACPackFramework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		463EC2F21C54D9E3004EF743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463EC31E1C54DB91004EF743 /* buid_framework.sh in Resources */,
+				463EC31C1C54DB42004EF743 /* ACPackLoadingController.xib in Resources */,
+				463EC3171C54DB22004EF743 /* ACPackConfigController.xib in Resources */,
+				463EC2FF1C54D9E3004EF743 /* ACPackFramework.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		463EC2F11C54D9E3004EF743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				463EC3021C54D9E3004EF743 /* ACPackFramework.m in Sources */,
+				463EC30F1C54DA77004EF743 /* NSTask+Extras.m in Sources */,
+				463EC3051C54D9E3004EF743 /* NSObject_Extension.m in Sources */,
+				463EC3121C54DAD4004EF743 /* ACPackDataSource.m in Sources */,
+				463EC3161C54DB22004EF743 /* ACPackConfigController.m in Sources */,
+				463EC31B1C54DB42004EF743 /* ACPackLoadingController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		463EC3071C54D9E3004EF743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		463EC3081C54D9E3004EF743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		463EC30A1C54D9E3004EF743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ACPackFramework/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acorld.plugins.ACPackFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		463EC30B1C54D9E3004EF743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = ACPackFramework/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acorld.plugins.ACPackFramework;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		463EC2F01C54D9E3004EF743 /* Build configuration list for PBXProject "ACPackFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463EC3071C54D9E3004EF743 /* Debug */,
+				463EC3081C54D9E3004EF743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		463EC3091C54D9E3004EF743 /* Build configuration list for PBXNativeTarget "ACPackFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				463EC30A1C54D9E3004EF743 /* Debug */,
+				463EC30B1C54D9E3004EF743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 463EC2ED1C54D9E3004EF743 /* Project object */;
+}
