@@ -3,13 +3,13 @@
 a Xcode plugin to pack iOS framework & bundle.
 a Xcode plugin just by a coder without product ideas.
 
+## 功能
+
 - **支持打包framework和bundle文件**
 - **自定义选择framework工程路径**
 - **自定义选择framework工程产品输出路径**
 - **自定义framework工程target**
 - **自定义打包超时时间**
-
--------------------
 
 ## 预览
 
